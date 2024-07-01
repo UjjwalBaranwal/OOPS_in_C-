@@ -17,6 +17,15 @@ public:
     {
         dept = newDept;
     }
+    // making getter and setter of the salary value
+    void setSalary(double s)
+    {
+        salary = s;
+    }
+    double getSalary()
+    {
+        return salary;
+    }
 };
 int main()
 {
@@ -25,6 +34,8 @@ int main()
     t1.dept = "cse";
     t1.subject = "cpp";
     // t1.salary = 10000; // we cant access here beacuse salary is private
+    t1.setSalary(1000);
+    cout << t1.getSalary() << endl;
     cout << t1.name << endl;
     return 0;
 }
