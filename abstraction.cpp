@@ -8,7 +8,7 @@ class Shape
      */
     // we can not create a object out of the Shape (abstract) class
 };
-class Circle
+class Circle : public Shape
 {
 public:
     void draw()

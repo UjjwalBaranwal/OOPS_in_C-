@@ -21,7 +21,7 @@ public:
         cout << "count is : " << count << endl;
     }
 };
-int Emp::count; // default value is zero
+int Emp::count = 1000; // default value is zero
 int main()
 {
     Emp uj;
